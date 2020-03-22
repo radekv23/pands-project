@@ -24,3 +24,8 @@ print(iris["species"].value_counts())
 #Getting statistics about dataset
 print(iris.describe())
 
+
+#Scatter Plots
+iris.plot(kind='scatter',x='sepal.length',y='sepal.width')
+plt.show()
+

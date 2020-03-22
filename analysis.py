@@ -31,6 +31,7 @@ iris_versicolor = iris.loc[iris["species"] == "versicolor"];
 plt.plot(iris_setsoa["petal_length"],np.zeros_like(iris_setsoa["petal_length"]), 'o', label='setosa')
 plt.plot(iris_versicolor["petal_length"],np.zeros_like(iris_versicolor["petal_length"]), 'o', label='versicolor')
 plt.plot(iris_virginica["petal_length"],np.zeros_like(iris_virginica["petal_length"]), 'o', label='virginica')
+plt.legend()
 plt.grid()
 plt.show()  
 

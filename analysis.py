@@ -1,8 +1,8 @@
 #Importing Package 
-import numpy as np
 import pandas as pd
-import seaborn as sns
+import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
 
 #Reading the CSV files and passing the filename  to a variable named iris.
 iris = pd.read_csv("iris.csv")
@@ -24,4 +24,3 @@ print(iris["species"].value_counts())
 #Getting statistics about dataset
 print(iris.describe())
 
- 

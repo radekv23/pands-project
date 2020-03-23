@@ -16,8 +16,11 @@ Nevertheless, all three species of Iris are separable in the projection on the n
 
 ## Built With
 Python - https://www.python.org/downloads/
+
 Visual studio code - https://code.visualstudio.com/download
+
 cmder - https://cmder.net/
+
 Anaconda - https://www.anaconda.com/distribution/
 
 

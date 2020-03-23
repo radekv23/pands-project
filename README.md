@@ -15,13 +15,9 @@ The use of this data set in cluster analysis however is not common, since the da
 Nevertheless, all three species of Iris are separable in the projection on the nonlinear and branching principal component.[7] The data set is approximated by the closest tree with some penalty for the excessive number of nodes, bending and stretching. Then the so-called "metro map" is constructed.[4] The data points are projected into the closest node. For each node the pie diagram of the projected points is prepared. The area of the pie is proportional to the number of the projected points. It is clear from the diagram (left) that the absolute majority of the samples of the different Iris species belong to the different nodes. Only a small fraction of Iris-virginica is mixed with Iris-versicolor (the mixed blue-green nodes in the diagram). Therefore, the three species of Iris (Iris setosa, Iris virginica and Iris versicolor) are separable by the unsupervising procedures of nonlinear principal component analysis. To discriminate them, it is sufficient just to select the corresponding nodes on the principal tree.
 
 ## Built With
-![Python](https://community-cdn-digitalocean-com.global.ssl.fastly.net/assets/tutorials/images/large/python.png?1511822563)
 Python - https://www.python.org/downloads/
-![VSC](https://blog.launchdarkly.com/wp-content/uploads/2018/10/visualstudio_code-card.png)
 Visual studio code - https://code.visualstudio.com/download
-![cmder ](https://download.komputerswiat.pl/media/2016/49/1626737/cmder_s.jpg)
 cmder - https://cmder.net/
-![Anaconda](https://upload.wikimedia.org/wikipedia/en/c/cd/Anaconda_Logo.png)
 Anaconda - https://www.anaconda.com/distribution/
 
 

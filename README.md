@@ -19,7 +19,7 @@ Nevertheless, all three species of Iris are separable in the projection on the n
 We are importing pandas, numpy, matplotlib and seaborns libaries.
 And loading our dataset:
 ![Dataset]("https://github.com/radekv23/pands-project/blob/master/img/dataset.JPG")
-<img src="https://github.com/radekv23/pands-project/blob/master/img/dataset.JPG")
+<img src="https://github.com/radekv23/pands-project/blob/master/img/dataset.JPG">
 
 ## Built With
 Python - https://www.python.org/downloads/

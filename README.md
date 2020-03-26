@@ -58,7 +58,7 @@ Separating Versicolor from Viginica is much harder as they have considerable ove
 
 ### Pair plots in Seaborn
 
-<img src=""https://github.com/radekv23/pands-project/blob/master/img/pairPlots.png">
+<img src="https://github.com/radekv23/pands-project/blob/master/img/pairPlots.png">
 
 #### Conclusion:
 

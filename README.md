@@ -15,11 +15,40 @@ The use of this data set in cluster analysis however is not common, since the da
 Nevertheless, all three species of Iris are separable in the projection on the nonlinear and branching principal component. The data set is approximated by the closest tree with some penalty for the excessive number of nodes, bending and stretching. Then the so-called "metro map" is constructed. The data points are projected into the closest node. For each node the pie diagram of the projected points is prepared. The area of the pie is proportional to the number of the projected points. It is clear from the diagram (left) that the absolute majority of the samples of the different Iris species belong to the different nodes. Only a small fraction of Iris-virginica is mixed with Iris-versicolor (the mixed blue-green nodes in the diagram). Therefore, the three species of Iris (Iris setosa, Iris virginica and Iris versicolor) are separable by the unsupervising procedures of nonlinear principal component analysis. To discriminate them, it is sufficient just to select the corresponding nodes on the principal tree.
 
 # Steps of Analysis:
-### 1. Importing libraries and loading Iris dataset.
+## 1. Importing libraries and loading Iris dataset.
 We are importing pandas, numpy, matplotlib and seaborns libaries.
+
 And loading our dataset:
-![Dataset]("https://github.com/radekv23/pands-project/blob/master/img/dataset.JPG")
 <img src="https://github.com/radekv23/pands-project/blob/master/img/dataset.JPG">
+
+## 2. Data preparation and statistics.
+We are printing info about our dataset. We could notice is no missing values and all our data is of the float type.
+
+Shape of data showing us that it is 150 instances of data and 5 attributes present.
+
+We can see the labels of columns present, object type for all columns present in data and data points for each class present.
+<img src="https://github.com/radekv23/pands-project/blob/master/img/dataInfo.JPG">
+
+By using pandas describe() we can print basic statistical details like percentile, mean, std, etc. of a data frame or a series of numeric values.
+<img src="https://github.com/radekv23/pands-project/blob/master/img/describe.JPG">
+
+## 3. Visualization
+### Scatter plots
+1D scatter plot of the iris data:
+<img src="https://github.com/radekv23/pands-project/blob/master/img/1dScatter.png">
+
+2D scatter plot:
+<img src="https://github.com/radekv23/pands-project/blob/master/img/2dScatter.png">
+
+2D scatter plot, seaborn version:
+<img src="https://github.com/radekv23/pands-project/blob/master/img/2dScaSeaborn.png">
+
+#### Conclusion
+
+Setosa (blue) points can be easily separated from versicolor (orange) and virginica (green) by drawing a line.
+But versicolor and virginica data points cannot be easily separated.
+Using sepal_length and sepal_width features, we can distinguish Setosa flowers from others.
+Separating Versicolor from Viginica is much harder as they have considerable overlap.
 
 ## Built With
 Python - https://www.python.org/downloads/

@@ -19,6 +19,7 @@ Nevertheless, all three species of Iris are separable in the projection on the n
 We are importing pandas, numpy, matplotlib and seaborns libaries.
 
 And loading our dataset:
+
 <img src="https://github.com/radekv23/pands-project/blob/master/img/dataset.JPG">
 
 ## 2. Data preparation and statistics.
@@ -27,20 +28,25 @@ We are printing info about our dataset. We could notice is no missing values and
 Shape of data showing us that it is 150 instances of data and 5 attributes present.
 
 We can see the labels of columns present, object type for all columns present in data and data points for each class present.
+
 <img src="https://github.com/radekv23/pands-project/blob/master/img/dataInfo.JPG">
 
 By using pandas describe() we can print basic statistical details like percentile, mean, std, etc. of a data frame or a series of numeric values.
+
 <img src="https://github.com/radekv23/pands-project/blob/master/img/describe.JPG">
 
 ## 3. Visualization
 ### Scatter plots
 1D scatter plot of the iris data:
+
 <img src="https://github.com/radekv23/pands-project/blob/master/img/1dScatter.png">
 
 2D scatter plot:
+
 <img src="https://github.com/radekv23/pands-project/blob/master/img/2dScatter.png">
 
 2D scatter plot, seaborn version:
+
 <img src="https://github.com/radekv23/pands-project/blob/master/img/2dScaSeaborn.png">
 
 #### Conclusion

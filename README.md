@@ -56,6 +56,16 @@ But versicolor and virginica data points cannot be easily separated.
 Using sepal_length and sepal_width features, we can distinguish Setosa flowers from others.
 Separating Versicolor from Viginica is much harder as they have considerable overlap.
 
+### Pair plots in Seaborn
+
+<img src=""https://github.com/radekv23/pands-project/blob/master/img/pairPlots.png">
+
+#### Conclusion:
+
+Petal length and petal width are the most useful features to identify various flower types.
+While Setosa can be easily identified (linearly separable), virginica and Versicolor have some overlap (almost linearly separable).
+
+
 ## Built With
 Python - https://www.python.org/downloads/
 
@@ -86,11 +96,17 @@ Real python
 https://realpython.com/
 
 Other resources:
+
 https://en.wikipedia.org/wiki/Iris_flower_data_set
+
 https://www.datacamp.com
+
 https://www.udemy.com
+
 https://www.coursera.org
+
 https://matplotlib.org
+
 https://developers.google.com/edu/python/
 
 ### Inspiration

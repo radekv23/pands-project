@@ -45,3 +45,8 @@ sns.FacetGrid(iris,hue="species",height=4) \
 .map(plt.scatter,"sepal_length","sepal_width") \
 .add_legend()
 plt.show()  
+
+#Pair plots in seaborn
+sns.set_style("whitegrid");
+sns.pairplot(iris,hue="species",height=3);
+plt.show()

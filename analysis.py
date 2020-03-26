@@ -35,7 +35,7 @@ plt.legend()
 plt.grid()
 plt.show()  
 
-# 2D Scatter Plots
+#2D Scatter Plots
 iris.plot(kind="scatter",x="sepal_length",y="sepal_width")
 plt.show() 
 

@@ -65,6 +65,15 @@ Separating Versicolor from Viginica is much harder as they have considerable ove
 Petal length and petal width are the most useful features to identify various flower types.
 While Setosa can be easily identified (linearly separable), virginica and Versicolor have some overlap (almost linearly separable).
 
+### Random Forest 
+
+Random Forest algorithm randomly generates thousands of decision trees and takes turns leaving out each variable in fitting the model. It calculate how much better or worse a model does when you leave one variable out of the equation.
+
+<img src="https://github.com/radekv23/pands-project/blob/master/img/RandomForest.png">
+
+#### Conclusion:
+
+We can clearly see tha most important variable to determine species is petal lenght  and least important is sepal width.
 
 ## Built With
 Python - https://www.python.org/downloads/

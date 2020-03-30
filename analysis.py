@@ -31,9 +31,11 @@ print(iris["species"].value_counts())
 print(iris.describe())
 
 #1D Scatter Plots
+#dividing our data set into three species
 iris_setsoa = iris.loc[iris["species"] == "setosa"]
 iris_virginica = iris.loc[iris["species"] == "virginica"]
 iris_versicolor = iris.loc[iris["species"] == "versicolor"]
+#creating plot
 plt.plot(iris_setsoa["petal_length"],np.zeros_like(iris_setsoa["petal_length"]), 'o', label='setosa')
 plt.plot(iris_versicolor["petal_length"],np.zeros_like(iris_versicolor["petal_length"]), 'o', label='versicolor')
 plt.plot(iris_virginica["petal_length"],np.zeros_like(iris_virginica["petal_length"]), 'o', label='virginica')
@@ -54,38 +56,4 @@ sns.pairplot(iris,hue="species",height=3)
 plt.show()
 
 
-#RandomForest algorithm
-# Isolate Data, class labels and column values
-X = iris.iloc[:,0:4]
-Y = iris.iloc[:,-1]
-names = iris.columns.values
 
-# Build the model
-model = RandomForestClassifier(n_estimators=100)
-
-# Fit the model
-model.fit(X, Y)
-
-# Print the results
-print("Features sorted by their score:")
-print(sorted(zip(map(lambda x: round(x, 4), model.feature_importances_), names), reverse=True))
-
-# Isolate feature importances 
-importance = model.feature_importances_
-
-# Sort the feature importances 
-sorted_importances = np.argsort(importance)
-
-# Insert padding
-padding = np.arange(len(names)-1) + 0.5
-
-# Plot the data
-plt.barh(padding, importance[sorted_importances], align='center')
-
-# Customize the plot
-plt.yticks(padding, names[sorted_importances])
-plt.xlabel("Relative Importance")
-plt.title("Variable Importance")
-
-# Show the plot
-plt.show()

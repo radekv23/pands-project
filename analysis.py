@@ -41,10 +41,6 @@ plt.legend()
 plt.grid()
 plt.show()  
 
-#2D Scatter Plots
-iris.plot(kind="scatter",x="sepal_length",y="sepal_width")
-plt.show() 
-
 #2D scatter plot in seaborn
 sns.set_style("whitegrid")
 sns.FacetGrid(iris,hue="species",height=4) \

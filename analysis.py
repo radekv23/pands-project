@@ -55,5 +55,9 @@ sns.set_style("whitegrid")
 sns.pairplot(iris,hue="species",height=3)
 plt.show()
 
-
-
+# plotting the histogram’s of each flowers.
+sns.FacetGrid(iris,hue="species",height=3).map(sns.distplot,"petal_length").add_legend()
+sns.FacetGrid(iris,hue="species",height=3).map(sns.distplot,"petal_width").add_legend()
+sns.FacetGrid(iris,hue="species",height=3).map(sns.distplot,"sepal_length").add_legend()
+sns.FacetGrid(iris,hue="species",height=3).map(sns.distplot,"sepal_width").add_legend()
+plt.show()

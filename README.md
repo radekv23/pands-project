@@ -73,6 +73,15 @@ While Setosa can be easily identified (linearly separable), virginica and Versic
 
 When we are using petal length we can separate setosa, because when we are using sepal length,sepal width we can’t do anything because we can’t separate the flowers as they are too close to each other.
 
+###  Box plots
+
+<img src="https://github.com/radekv23/pands-project/blob/master/img/boxplot.png">
+
+#### Conclusion:
+
+A boxplot can tell us about our outliers: isolated points that can be seen on our box plots. There are very few of them and it wouldn't have any major impact on our analysis.
+
+
 ### Random Forest 
 
 Random Forest algorithm randomly generates thousands of decision trees and takes turns leaving out each variable in fitting the model. It calculate how much better or worse a model does when you leave one variable out of the equation.

@@ -75,3 +75,17 @@ sns.boxplot(x='species',y='petal_length',data=iris)
 plt.subplot(2,2,4)
 sns.boxplot(x='species',y='petal_width',data=iris)
 plt.show()
+
+
+# Plotting Violin plots
+sns.set_style("whitegrid")
+plt.figure(figsize=(12,10))
+plt.subplot(2,2,1)
+sns.violinplot(x='species',y='sepal_length',data=iris)
+plt.subplot(2,2,2)
+sns.violinplot(x='species',y='sepal_length',data=iris)
+plt.subplot(2,2,3)
+sns.violinplot(x='species',y='sepal_length',data=iris)
+plt.subplot(2,2,4)
+sns.violinplot(x='species',y='sepal_length',data=iris)
+plt.show()

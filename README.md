@@ -81,6 +81,14 @@ When we are using petal length we can separate setosa, because when we are using
 
 A boxplot can tell us about our outliers: isolated points that can be seen on our box plots. There are very few of them and it wouldn't have any major impact on our analysis.
 
+###  Violin plots
+
+<img src="https://github.com/radekv23/pands-project/blob/master/img/violin.png">
+
+#### Conclusion:
+
+The Violin Boxplot shows that Virginica has highest median value in petal length, petal width and sepal length. However, Setosa has the highest sepal width median value. We can also see significant difference between Setosa’s sepal lenght and width against its petal length and width. That differene is smaller in Versicolor and Virginica. Furthermore the weight of the Virginica sepal width and petal width are highly concentrated around the median.
+
 
 ### Random Forest 
 

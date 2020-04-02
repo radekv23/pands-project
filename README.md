@@ -91,7 +91,7 @@ A boxplot can tell us about our outliers: isolated points that can be seen on ou
 
 The Violin Boxplot shows that Virginica has highest median value in petal length, petal width and sepal length. However, Setosa has the highest sepal width median value. We can also see significant difference between Setosa’s sepal lenght and width against its petal length and width. That differene is smaller in Versicolor and Virginica. Furthermore the weight of the Virginica sepal width and petal width are highly concentrated around the median.
 
-# Machine learning (ml.py)
+# Machine learning ([ml.py](https://github.com/radekv23/pands-project/blob/master/ml.py))
 
 Machine learning (ML) is the scientific study of algorithms and statistical models that computer systems use to perform a specific task without using explicit instructions, relying on patterns and inference instead. It is seen as a subset of artificial intelligence. Machine learning algorithms build a mathematical model based on sample data, known as "training data", in order to make predictions or decisions without being explicitly programmed to perform the task. Machine learning algorithms are used in a wide variety of applications, such as email filtering and computer vision, where it is difficult or infeasible to develop a conventional algorithm for effectively performing the task.
 

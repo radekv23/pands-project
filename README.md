@@ -14,7 +14,7 @@ The use of this data set in cluster analysis however is not common, since the da
 
 Nevertheless, all three species of Iris are separable in the projection on the nonlinear and branching principal component. The data set is approximated by the closest tree with some penalty for the excessive number of nodes, bending and stretching. Then the so-called "metro map" is constructed. The data points are projected into the closest node. For each node the pie diagram of the projected points is prepared. The area of the pie is proportional to the number of the projected points. It is clear from the diagram (left) that the absolute majority of the samples of the different Iris species belong to the different nodes. Only a small fraction of Iris-virginica is mixed with Iris-versicolor (the mixed blue-green nodes in the diagram). Therefore, the three species of Iris (Iris setosa, Iris virginica and Iris versicolor) are separable by the unsupervising procedures of nonlinear principal component analysis. To discriminate them, it is sufficient just to select the corresponding nodes on the principal tree.
 
-# Steps of Analysis:
+# Steps of Analysis (analysis.py):
 ## 1. Importing libraries and loading Iris dataset.
 We are importing pandas, numpy, matplotlib and seaborns libaries.
 
@@ -91,6 +91,11 @@ A boxplot can tell us about our outliers: isolated points that can be seen on ou
 
 The Violin Boxplot shows that Virginica has highest median value in petal length, petal width and sepal length. However, Setosa has the highest sepal width median value. We can also see significant difference between Setosa’s sepal lenght and width against its petal length and width. That differene is smaller in Versicolor and Virginica. Furthermore the weight of the Virginica sepal width and petal width are highly concentrated around the median.
 
+# Machine learning (ml.py)
+
+Machine learning (ML) is the scientific study of algorithms and statistical models that computer systems use to perform a specific task without using explicit instructions, relying on patterns and inference instead. It is seen as a subset of artificial intelligence. Machine learning algorithms build a mathematical model based on sample data, known as "training data", in order to make predictions or decisions without being explicitly programmed to perform the task. Machine learning algorithms are used in a wide variety of applications, such as email filtering and computer vision, where it is difficult or infeasible to develop a conventional algorithm for effectively performing the task.
+
+Machine learning is closely related to computational statistics, which focuses on making predictions using computers. The study of mathematical optimization delivers methods, theory and application domains to the field of machine learning. Data mining is a field of study within machine learning, and focuses on exploratory data analysis through unsupervised learning. In its application across business problems, machine learning is also referred to as predictive analytics.
 
 ### Random Forest 
 
@@ -134,6 +139,8 @@ https://realpython.com/
 Other resources:
 
 https://en.wikipedia.org/wiki/Iris_flower_data_set
+
+https://en.wikipedia.org/wiki/Machine_learning
 
 https://www.datacamp.com
 

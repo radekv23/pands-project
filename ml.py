@@ -11,7 +11,7 @@ from sklearn.ensemble import RandomForestClassifier
 iris = pd.read_csv("iris.csv")
 print(iris.head())
 
-#RandomForest algorithm
+# RandomForest algorithm
 # Isolate Data, class labels and column values
 X = iris.iloc[:,0:4]
 Y = iris.iloc[:,-1]

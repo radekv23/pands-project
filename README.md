@@ -42,9 +42,11 @@ By using pandas describe() we can print basic statistical details like percentil
 <img src="https://github.com/radekv23/pands-project/blob/master/img/1dScatter.png">
 
 
-2D scatter plot in seaborn:
+2D scatter plots in seaborn:
 
 <img src="https://github.com/radekv23/pands-project/blob/master/img/2dScaSeaborn.png">
+
+<img src="https://github.com/radekv23/pands-project/blob/master/img/sca2.png">
 
 #### Conclusion
 

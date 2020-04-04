@@ -77,5 +77,12 @@ plt.show()
 # Split the data: training (80%), testing (20%)
 x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 # Create and train the model
-model = LogisticRegression()
+model = LogisticRegression(solver='lbfgs', multi_class='auto')
 model.fit(x_train, y_train)
+#Test the model
+predictions = model.predict(x_test)
+print(predictions)
+print()
+# precision, recall, f1-score
+print( classification_report(y_test, predictions) )
+print( accuracy_score(y_test, predictions))

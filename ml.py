@@ -70,3 +70,6 @@ plt.scatter(pltX, pltY, color='red', label='petal_length')
 pltX = iris.loc[:, 'petal_width']
 pltY = iris.loc[:,'species']
 plt.scatter(pltX, pltY, color='black', label='petal_width')
+
+plt.legend(loc=4, prop={'size':8})
+plt.show()

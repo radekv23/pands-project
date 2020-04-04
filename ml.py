@@ -73,3 +73,6 @@ plt.scatter(pltX, pltY, color='black', label='petal_width')
 
 plt.legend(loc=4, prop={'size':8})
 plt.show()
+
+#Split the data: training (80%), testing (20%)
+x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)

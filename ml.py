@@ -54,3 +54,19 @@ y = iris.iloc[:, -1]
 # Plots of relation between features and species
 plt.xlabel('Features')
 plt.ylabel('Species')
+
+pltX = iris.loc[:, 'sepal_length']
+pltY = iris.loc[:,'species']
+plt.scatter(pltX, pltY, color='blue', label='sepal_length')
+
+pltX = iris.loc[:, 'sepal_width']
+pltY = iris.loc[:,'species']
+plt.scatter(pltX, pltY, color='green', label='sepal_width')
+
+pltX = iris.loc[:, 'petal_length']
+pltY = iris.loc[:,'species']
+plt.scatter(pltX, pltY, color='red', label='petal_length')
+
+pltX = iris.loc[:, 'petal_width']
+pltY = iris.loc[:,'species']
+plt.scatter(pltX, pltY, color='black', label='petal_width')

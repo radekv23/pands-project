@@ -51,3 +51,6 @@ X = iris.iloc[:, :-1]
 # target values, last column of the data frame
 y = iris.iloc[:, -1]
 
+# Plots of relation between features and species
+plt.xlabel('Features')
+plt.ylabel('Species')

@@ -107,6 +107,14 @@ Random Forest algorithm randomly generates thousands of decision trees and takes
 
 We can clearly see tha most important variable to determine species is petal lenght  and least important is sepal width.
 
+### Logistic regression 
+
+Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist. In regression analysis, logistic regression (or logit regression) is estimating the parameters of a logistic model (a form of binary regression).
+
+<img src="https://github.com/radekv23/pands-project/blob/master/img/logreg.png">
+
+<img src="https://github.com/radekv23/pands-project/blob/master/img/lrmodel.png">
+
 ## Built With
 Python - https://www.python.org/downloads/
 

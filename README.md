@@ -75,6 +75,19 @@ While Setosa can be easily identified (linearly separable), virginica and Versic
 
 When we are using petal length we can separate setosa, because when we are using sepal length,sepal width we can’t do anything because we can’t separate the flowers as they are too close to each other.
 
+### Cumulative Distribution Function (CDF)
+
+The cumulative distribution function (CDF) of a random variable is another method to describe the distribution of random variables. The cumulative distribution function (CDF) of random variable X is defined as FX(x)=P(X≤x), for all x∈R. Note that the subscript X indicates that this is the CDF of the random variable X.
+
+<img src="https://github.com/radekv23/pands-project/blob/master/img/cdf1.png">
+
+#### Conclusion:
+
+From the above CDF plots, we can see that:
+- 100 % of the Setosa, petal length < 1.9,
+- 95 % of the Versicolor, petal length < 5,
+- 90% of the Virginica, petal length > 5.
+
 ###  Box plots
 
 <img src="https://github.com/radekv23/pands-project/blob/master/img/boxplot.png">

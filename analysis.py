@@ -89,3 +89,30 @@ sns.violinplot(x='species',y='sepal_length',data=iris)
 plt.subplot(2,2,4)
 sns.violinplot(x='species',y='sepal_length',data=iris)
 plt.show()
+
+# Cumulative Distribution Function (CDF) plots 
+iris_setosa = iris[iris['species'] == 'setosa']
+iris_versicolor = iris[iris['species'] == 'versicolor']
+iris_virginica = iris[iris['species'] == 'virginica']
+
+plt.figure(figsize=(15,10))
+counts, bin_edges = np.histogram(iris_setosa['petal_length'],
+                                 bins = 10, density = True)
+pdf = counts/sum(counts)
+cdf = np.cumsum(pdf)
+plt.plot(bin_edges[1:], pdf, label = 'Setosa PDF')
+plt.plot(bin_edges[1:], cdf, label = 'Setosa CDF')
+counts, bin_edges = np.histogram(iris_versicolor['petal_length'],
+                                 bins = 10, density = True)
+pdf = counts/sum(counts)
+cdf = np.cumsum(pdf)
+plt.plot(bin_edges[1:], pdf, label = 'Versicolor PDF')
+plt.plot(bin_edges[1:], cdf, label = 'Versicolor CDF')
+counts, bin_edges = np.histogram(iris_virginica['petal_length'],
+                                 bins = 10, density = True)
+pdf = counts/sum(counts)
+cdf = np.cumsum(pdf)
+plt.plot(bin_edges[1:], pdf, label = 'Virginica PDF')
+plt.plot(bin_edges[1:], cdf, label = 'Virginica CDF')
+plt.legend()
+plt.show()

@@ -113,6 +113,8 @@ Logistic regression is a statistical model that in its basic form uses a logisti
 
 <img src="https://github.com/radekv23/pands-project/blob/master/img/logreg.png">
 
+#### Model:
+
 <img src="https://github.com/radekv23/pands-project/blob/master/img/lrModel.JPG">
 
 ## Built With

@@ -8,6 +8,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import classification_report
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
+from sklearn import metrics
 
 
 #Reading the CSV files and passing the filename  to a variable named iris.
@@ -85,4 +86,4 @@ print(predictions)
 print()
 # precision, recall, f1-score
 print( classification_report(y_test, predictions) )
-print( accuracy_score(y_test, predictions))
+print("Accuracy:",(accuracy_score(y_test, predictions)*100), "%")

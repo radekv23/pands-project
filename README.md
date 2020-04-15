@@ -195,6 +195,36 @@ https://scikit-learn.org/stable/user_guide.html
 
 https://pandas.pydata.org/docs/development/index.html#development
 
+https://pythonspot.com/matplotlib-scatterplot/
+
+https://honingds.com/blog/seaborn-scatterplot/
+
+https://www.tutorialspoint.com/seaborn/seaborn_visualizing_pairwise_relationship.htm
+
+https://cmdlinetips.com/2019/02/how-to-make-histogram-in-python-with-pandas-and-seaborn/
+
+https://stackoverflow.com/questions/24788200/calculate-the-cumulative-distribution-function-cdf-in-python
+
+https://docs.scipy.org/doc/scipy/reference/tutorial/stats.html
+
+https://pythonbasics.org/seaborn-boxplot/
+
+https://cmdlinetips.com/2018/03/how-to-make-boxplots-in-python-with-pandas-and-seaborn/
+
+https://mode.com/blog/violin-plot-examples
+
+https://fcpython.com/visualisation/violin-plots-in-seaborn
+
+https://stackabuse.com/random-forest-algorithm-with-python-and-scikit-learn/
+
+https://chrisalbon.com/machine_learning/trees_and_forests/random_forest_classifier_example/
+
+https://blog.goodaudience.com/machine-learning-using-logistic-regression-in-python-with-code-ab3c7f5f3bed
+
+https://realpython.com/logistic-regression-python/
+
+https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8
+
 ### Inspiration
 
 GMIT PandS Team:

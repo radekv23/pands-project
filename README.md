@@ -165,7 +165,7 @@ https://en.wikipedia.org/wiki/Iris_flower_data_set
 
 https://en.wikipedia.org/wiki/Machine_learning
 
-https://www.datacamp.com
+https://www.datacamp.com/community/tutorials
 
 https://www.udemy.com
 
@@ -174,6 +174,26 @@ https://www.coursera.org
 https://matplotlib.org
 
 https://developers.google.com/edu/python/
+
+https://towardsdatascience.com
+
+https://machinelearningmastery.com/blog/
+
+https://medium.com/topic/data-science
+
+https://ksopyla.com/python/
+
+https://jakevdp.github.io/PythonDataScienceHandbook/
+
+https://www.dataquest.io/blog/
+
+https://www.kaggle.com/notebooks
+
+https://seaborn.pydata.org/tutorial.html
+
+https://scikit-learn.org/stable/user_guide.html
+
+https://pandas.pydata.org/docs/development/index.html#development
 
 ### Inspiration
 

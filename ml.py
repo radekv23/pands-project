@@ -41,7 +41,12 @@ plt.barh(padding, importance[sorted_importances], align='center')
 plt.yticks(padding, names[sorted_importances])
 plt.xlabel("Relative Importance")
 plt.title("Variable Importance")
-# Show the plot
+plt.show()
+
+# Linear regression
+
+# plotting the petal_width against the petal_length
+sns.regplot(x='petal_width', y='petal_length', data=iris)
 plt.show()
 
 # Logistic regression

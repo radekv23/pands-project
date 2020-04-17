@@ -120,6 +120,15 @@ Random Forest algorithm randomly generates thousands of decision trees and takes
 
 We can clearly see tha most important variable to determine species is petal lenght  and least important is sepal width.
 
+### Linear regression 
+
+Linear Regression is one of the most simple Machine learning algorithm that comes under Supervised Learning technique and used for solving regression problems.
+It is used for predicting the continuous dependent variable with the help of independent variables. The goal of the Linear regression is to find the best fit line that can accurately predict the output for the continuous dependent variable.
+By finding the best fit line, algorithm establish the relationship between dependent variable and independent variable. And the relationship should be of linear nature.
+
+<img src="https://github.com/radekv23/pands-project/blob/master/img/linreg.png">
+
+
 ### Logistic regression 
 
 Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist. In regression analysis, logistic regression (or logit regression) is estimating the parameters of a logistic model (a form of binary regression).
@@ -224,6 +233,10 @@ https://blog.goodaudience.com/machine-learning-using-logistic-regression-in-pyth
 https://realpython.com/logistic-regression-python/
 
 https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-step-becd4d56c9c8
+
+https://gilberttanner.com/blog/introduction-to-data-visualization-inpython
+
+https://tryolabs.com/blog/2017/03/16/pandas-seaborn-a-guide-to-handle-visualize-data-elegantly/
 
 ### Inspiration
 

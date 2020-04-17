@@ -52,7 +52,7 @@ plt.show()
 
 # Pair plots in seaborn
 sns.set_style("whitegrid")
-sns.pairplot(iris,hue="species",height=3)
+sns.pairplot(iris,hue="species",height=2)
 plt.show()
 
 # plotting the histogram’s of each flowers.
@@ -87,7 +87,7 @@ plt.show()
 
 # Plotting the boxplots using Seaborn
 sns.set(style="ticks") 
-plt.figure(figsize=(12,10))
+plt.figure(figsize=(10,8))
 plt.subplot(2,2,1)
 sns.boxplot(x='species',y='sepal_length',data=iris)
 plt.subplot(2,2,2)
@@ -101,7 +101,7 @@ plt.show()
 
 # Plotting Violin plots
 sns.set_style("whitegrid")
-plt.figure(figsize=(12,10))
+plt.figure(figsize=(10,8))
 plt.subplot(2,2,1)
 sns.violinplot(x='species',y='sepal_length',data=iris)
 plt.subplot(2,2,2)
@@ -111,3 +111,4 @@ sns.violinplot(x='species',y='sepal_length',data=iris)
 plt.subplot(2,2,4)
 sns.violinplot(x='species',y='sepal_length',data=iris)
 plt.show()
+

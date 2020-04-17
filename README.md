@@ -128,6 +128,7 @@ By finding the best fit line, algorithm establish the relationship between depen
 
 <img src="https://github.com/radekv23/pands-project/blob/master/img/linreg.png">
 
+<img src="https://github.com/radekv23/pands-project/blob/master/img/lmplots.png">
 
 ### Logistic regression 
 

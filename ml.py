@@ -49,6 +49,11 @@ plt.show()
 sns.regplot(x='petal_width', y='petal_length', data=iris)
 plt.show()
 
+#LM Plots
+#plotting sepal_width vs. sepal_length. divided into three subsets 
+sns.lmplot(x = 'sepal_width', y = 'sepal_length', data = iris, col = 'species', hue = 'species', palette = 'YlGnBu')
+plt.show()
+
 # Logistic regression
 
 # Training set preparation

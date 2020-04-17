@@ -128,6 +128,11 @@ By finding the best fit line, algorithm establish the relationship between depen
 
 <img src="https://github.com/radekv23/pands-project/blob/master/img/linreg.png">
 
+### LM Plots
+
+LM plots are a convenient interface to fit regression models across conditional data subsets.
+We have plotted sepal_width vs. sepal_length. The data set is divided into three subsets (species of iris flower).
+
 <img src="https://github.com/radekv23/pands-project/blob/master/img/lmplots.png">
 
 ### Logistic regression 

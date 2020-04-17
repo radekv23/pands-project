@@ -46,8 +46,8 @@ plt.show()
 
 # 2D scatter plots in seaborn
 sns.set_style("whitegrid")
-sns.FacetGrid(iris,hue="species",height=4).map(plt.scatter,"sepal_length","sepal_width").add_legend()
-sns.FacetGrid(iris,hue="species",height=4).map(plt.scatter,"petal_length","petal_width").add_legend()
+sns.FacetGrid(iris,hue="species",height=6).map(plt.scatter,"sepal_length","sepal_width").add_legend()
+sns.FacetGrid(iris,hue="species",height=6).map(plt.scatter,"petal_length","petal_width").add_legend()
 plt.show()  
 
 # Pair plots in seaborn
@@ -56,14 +56,14 @@ sns.pairplot(iris,hue="species",height=3)
 plt.show()
 
 # plotting the histogram’s of each flowers.
-sns.FacetGrid(iris,hue="species",height=3).map(sns.distplot,"petal_length").add_legend()
-sns.FacetGrid(iris,hue="species",height=3).map(sns.distplot,"petal_width").add_legend()
-sns.FacetGrid(iris,hue="species",height=3).map(sns.distplot,"sepal_length").add_legend()
-sns.FacetGrid(iris,hue="species",height=3).map(sns.distplot,"sepal_width").add_legend()
+sns.FacetGrid(iris,hue="species",height=6).map(sns.distplot,"petal_length").add_legend()
+sns.FacetGrid(iris,hue="species",height=6).map(sns.distplot,"petal_width").add_legend()
+sns.FacetGrid(iris,hue="species",height=6).map(sns.distplot,"sepal_length").add_legend()
+sns.FacetGrid(iris,hue="species",height=6).map(sns.distplot,"sepal_width").add_legend()
 plt.show()
 
 # Cumulative Distribution Function (CDF) plots 
-plt.figure(figsize=(15,10))
+plt.figure(figsize=(10,7))
 counts, bin_edges = np.histogram(iris[iris['species'] == 'setosa']['petal_length'],
                                  bins = 10, density = True)
 pdf = counts/sum(counts)

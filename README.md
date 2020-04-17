@@ -228,8 +228,11 @@ https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-
 ### Inspiration
 
 GMIT PandS Team:
+
 Ian McLoughlin
+
       &
+      
 Andrew Beatty
 
 Thank you for all the help, and great simple to understand lectures, labs, tutorials and workshops.

@@ -145,14 +145,6 @@ Logistic regression is a statistical model that in its basic form uses a logisti
 
 <img src="https://github.com/radekv23/pands-project/blob/master/img/lrModel.JPG">
 
-# Neural networks - [nn.py](https://github.com/radekv23/pands-project/blob/master/nn.py)
-
-Neural networks are a set of algorithms, modeled loosely after the human brain, that are designed to recognize patterns. They interpret sensory data through a kind of machine perception, labeling or clustering raw input.
-
-#### Model:
-
-<img src="https://github.com/radekv23/pands-project/blob/master/img/nnModel.JPG">
-
 
 ## Built With
 Python - https://www.python.org/downloads/

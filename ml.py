@@ -111,3 +111,16 @@ X_train = torch.FloatTensor(X_train)
 X_test = torch.FloatTensor(X_test)
 y_train = torch.LongTensor(y_train)
 y_test = torch.LongTensor(y_test)
+
+# Defining a NN Model
+class ANN(nn.Module):
+   def __init__(self):
+       super().__init__()
+       self.fc1 = nn.Linear(in_features=4, out_features=16)
+       self.fc2 = nn.Linear(in_features=16, out_features=12)
+       self.output = nn.Linear(in_features=12, out_features=3)
+ 
+ def forward(self, x):
+     x = F.relu(self.fc1(x))
+     x = F.relu(self.fc2(x))
+     x = self.out

@@ -100,3 +100,14 @@ print()
 # precision, recall, f1-score
 print( classification_report(y_test, predictions) )
 print("Accuracy:",(accuracy_score(y_test, predictions)*100), "%")
+
+
+# Neural Network in PyTorch
+# Train & Split
+X = iris.drop('Name', axis=1).values
+y = iris['Name'].values
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_train = torch.FloatTensor(X_train)
+X_test = torch.FloatTensor(X_test)
+y_train = torch.LongTensor(y_train)
+y_test = torch.LongTensor(y_test)

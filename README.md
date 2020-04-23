@@ -145,6 +145,11 @@ Logistic regression is a statistical model that in its basic form uses a logisti
 
 <img src="https://github.com/radekv23/pands-project/blob/master/img/lrModel.JPG">
 
+### Neural networks 
+
+Neural networks are a set of algorithms, modeled loosely after the human brain, that are designed to recognize patterns. They interpret sensory data through a kind of machine perception, labeling or clustering raw input.
+
+
 ## Built With
 Python - https://www.python.org/downloads/
 
@@ -153,6 +158,8 @@ Visual studio code - https://code.visualstudio.com/download
 cmder - https://cmder.net/
 
 Anaconda - https://www.anaconda.com/distribution/
+
+Pytorch - https://pytorch.org install (conda install pytorch torchvision -c pytorch)
 
 ### Author
 
@@ -243,6 +250,8 @@ https://towardsdatascience.com/building-a-logistic-regression-in-python-step-by-
 https://gilberttanner.com/blog/introduction-to-data-visualization-inpython
 
 https://tryolabs.com/blog/2017/03/16/pandas-seaborn-a-guide-to-handle-visualize-data-elegantly/
+
+https://pytorch.org
 
 ### Inspiration
 

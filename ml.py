@@ -9,6 +9,9 @@ from sklearn.metrics import classification_report
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
 
 
 #Reading the CSV files and passing the filename  to a variable named iris.

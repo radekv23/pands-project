@@ -247,7 +247,13 @@ https://gilberttanner.com/blog/introduction-to-data-visualization-inpython
 
 https://tryolabs.com/blog/2017/03/16/pandas-seaborn-a-guide-to-handle-visualize-data-elegantly/
 
-https://pytorch.org
+https://hub.packtpub.com/building-linear-regression-model-python-developers/
+
+https://scikit-learn.org/stable/auto_examples/linear_model/plot_ols.html
+
+https://www.ritchieng.com/machine-learning-iris-dataset/
+
+https://deparkes.co.uk/2016/11/18/python-linear-regression/
 
 ### Inspiration
 
